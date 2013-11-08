@@ -19,7 +19,7 @@ m4_define([libexo_version_major], [0])
 m4_define([libexo_version_minor], [10])
 m4_define([libexo_version_micro], [2])
 m4_define([libexo_version_nano], [])
-m4_define([libexo_version_build], [e7a7e67])
+m4_define([libexo_version_build], [cbd1e9a])
 m4_define([libexo_version_tag], [])
 m4_define([libexo_version], [libexo_version_major().libexo_version_minor().libexo_version_micro()ifelse(libexo_version_nano(), [], [], [.libexo_version_nano()])ifelse(libexo_version_tag(), [git], [libexo_version_tag()-libexo_version_build()], [libexo_version_tag()])])
 
@@ -35,7 +35,7 @@ AC_COPYRIGHT([Copyright (c) 2004-2010 os-cillation.
 Copyright (c) 2004-2012 Xfce Development Team])
 AC_INIT([exo], [libexo_version], [http://bugzilla.xfce.org/])
 AC_PREREQ([2.60])
-AC_REVISION([e7a7e67])
+AC_REVISION([cbd1e9a])
 AC_CANONICAL_TARGET()
 
 dnl ***************************
